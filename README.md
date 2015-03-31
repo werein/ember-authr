@@ -1,25 +1,7 @@
 # Ember-authr
 
-This README outlines the details of collaborating on this Ember addon.
+[![Build Status](https://travis-ci.org/werein/ember-authr.svg)](https://travis-ci.org/werein/ember-authr)  [![Code Climate](https://codeclimate.com/github/werein/ember-authr/badges/gpa.svg)](https://codeclimate.com/github/werein/ember-authr) [![Test coverage](https://codeclimate.com/github/werein/ember-authr/badges/coverage.svg)](https://codeclimate.com/github/werein/ember-authr) [![Version](https://badge.fury.io/js/ember-authr.svg)](https://badge.fury.io/js/ember-authr) [![Dependencies](https://gemnasium.com/werein/ember-authr.svg)](https://gemnasium.com/werein/ember-authr)
 
-## Installation
+Authenthication addon working out-of-the-box with Authr Engine for Rails.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+Only thing you need to do is setup router and custom environment. Take a look on dummy app, this configuration works directly with gem mentioned above.
